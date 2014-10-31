@@ -1,0 +1,5 @@
+python-nose-parameterized (0.3.4-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #767515)
+
+ -- Thomas Goirand <zigo@debian.org>  Fri, 31 Oct 2014 23:56:25 +0800

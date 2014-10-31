@@ -1,0 +1,47 @@
+Source: python-nose-parameterized
+Section: python
+Priority: optional
+Maintainer: PKG OpenStack <openstack-devel@lists.alioth.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>
+Build-Depends: debhelper (>= 9),
+               python-all (>= 2.6.6-3~),
+               python-setuptools,
+               python3-all,
+               python3-setuptools
+Build-Depends-Indep: python-nose, python3-nose
+Standards-Version: 3.9.6
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=openstack/python-nose-parameterized.git
+Vcs-Git: git://anonscm.debian.org/openstack/python-nose-parameterized.git
+Homepage: https://github.com/wolever/nose-parameterized
+
+Package: python-nose-parameterized
+Architecture: all
+Pre-Depends: dpkg (>= 1.15.6~)
+Depends: ${misc:Depends}, ${python:Depends}
+Suggests: python-nose-parameterized-doc
+Description: decorator for parameterized testing with Nose - Python 2.x
+ nose-parameterized is a decorator for parameterized testing with nose.
+ .
+ Nose. It's got test generators. But they kind of suck:
+  * They often require a second function
+  * They make it difficult to separate the data from the test
+  * They don't work with subclases of unittest.TestCase
+  * kwargs? What kwargs?
+ .
+ This package contains the Python 2.x module.
+
+Package: python3-nose-parameterized
+Architecture: all
+Pre-Depends: dpkg (>= 1.15.6~)
+Depends: ${misc:Depends}, ${python3:Depends}
+Suggests: python-nose-parameterized-doc
+Description: Decorator for parameterized testing with Nose - Python 3.x
+ nose-parameterized is a decorator for parameterized testing with nose.
+ .
+ Nose. It's got test generators. But they kind of suck:
+  * They often require a second function
+  * They make it difficult to separate the data from the test
+  * They don't work with subclases of unittest.TestCase
+  * kwargs? What kwargs?
+ .
+ This package contains the Python 3.x module.
