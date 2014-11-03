@@ -20,13 +20,12 @@ Pre-Depends: dpkg (>= 1.15.6~)
 Depends: ${misc:Depends}, ${python:Depends}
 Suggests: python-nose-parameterized-doc
 Description: decorator for parameterized testing with Nose - Python 2.x
- nose-parameterized is a decorator for parameterized testing with nose.
+ nose-parameterized is a decorator for parameterized testing of Python code
+ with nose.
  .
- Nose. It's got test generators. But they kind of suck:
-  * They often require a second function
-  * They make it difficult to separate the data from the test
-  * They don't work with subclases of unittest.TestCase
-  * kwargs? What kwargs?
+ The provided decorators make it simple to pass lists, iterables, tuples or
+ callables to the test functions. This allows you to separate the data from the
+ test without having to subclass unittest.testcase.
  .
  This package contains the Python 2.x module.
 
@@ -36,12 +35,11 @@ Pre-Depends: dpkg (>= 1.15.6~)
 Depends: ${misc:Depends}, ${python3:Depends}
 Suggests: python-nose-parameterized-doc
 Description: Decorator for parameterized testing with Nose - Python 3.x
- nose-parameterized is a decorator for parameterized testing with nose.
+ nose-parameterized is a decorator for parameterized testing of Python code
+ with nose.
  .
- Nose. It's got test generators. But they kind of suck:
-  * They often require a second function
-  * They make it difficult to separate the data from the test
-  * They don't work with subclases of unittest.TestCase
-  * kwargs? What kwargs?
+ The provided decorators make it simple to pass lists, iterables, tuples or
+ callables to the test functions. This allows you to separate the data from the
+ test without having to subclass unittest.testcase.
  .
  This package contains the Python 3.x module.
