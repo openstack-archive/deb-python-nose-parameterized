@@ -1,3 +1,10 @@
+python-nose-parameterized (0.3.4-3) experimental; urgency=medium
+
+  * Remove Pre-Depends field from debian/control .
+  * Add python-nose and python3-nose as a dependency.
+
+ -- Ivan Udovichenko <iudovichenko@mirantis.com>  Thu, 17 Sep 2015 16:17:47 +0300
+
 python-nose-parameterized (0.3.4-2) unstable; urgency=medium
 
   * Using the new package long description from Guido Günther <agx@sigxcpu.org>,

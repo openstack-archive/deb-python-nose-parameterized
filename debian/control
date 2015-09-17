@@ -16,8 +16,7 @@ Homepage: https://github.com/wolever/nose-parameterized
 
 Package: python-nose-parameterized
 Architecture: all
-Pre-Depends: dpkg (>= 1.15.6~)
-Depends: ${misc:Depends}, ${python:Depends}
+Depends: python-nose, ${misc:Depends}, ${python:Depends}
 Suggests: python-nose-parameterized-doc
 Description: decorator for parameterized testing with Nose - Python 2.x
  nose-parameterized is a decorator for parameterized testing of Python code
@@ -31,8 +30,7 @@ Description: decorator for parameterized testing with Nose - Python 2.x
 
 Package: python3-nose-parameterized
 Architecture: all
-Pre-Depends: dpkg (>= 1.15.6~)
-Depends: ${misc:Depends}, ${python3:Depends}
+Depends: python3-nose, ${misc:Depends}, ${python3:Depends}
 Suggests: python-nose-parameterized-doc
 Description: Decorator for parameterized testing with Nose - Python 3.x
  nose-parameterized is a decorator for parameterized testing of Python code
