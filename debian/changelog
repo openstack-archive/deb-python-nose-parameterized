@@ -1,9 +1,16 @@
-python-nose-parameterized (0.3.4-3) experimental; urgency=medium
+python-nose-parameterized (0.3.4-3) unstable; urgency=medium
 
+  [ Ivan Udovichenko ]
   * Remove Pre-Depends field from debian/control .
   * Add python-nose and python3-nose as a dependency.
 
- -- Ivan Udovichenko <iudovichenko@mirantis.com>  Thu, 17 Sep 2015 16:17:47 +0300
+  [ Thomas Goirand ]
+  * Added missing dh-python.
+  * Removed version in python-all build-depends.
+  * Watch file now using the PyPi redirector.
+  * Fixed gbp.conf.
+
+ -- Thomas Goirand <zigo@debian.org>  Tue, 22 Sep 2015 08:07:35 +0000
 
 python-nose-parameterized (0.3.4-2) unstable; urgency=medium
 
