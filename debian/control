@@ -11,8 +11,8 @@ Build-Depends: debhelper (>= 9),
                python3-setuptools
 Build-Depends-Indep: python-nose, python3-nose
 Standards-Version: 3.9.6
-Vcs-Browser: https://anonscm.debian.org/cgit/openstack/python-nose-parameterized.git/
-Vcs-Git: https://anonscm.debian.org/git/openstack/python-nose-parameterized.git
+Vcs-Browser: https://git.openstack.org/cgit/openstack/deb-python-nose-parameterized?h=debian%2Fnewton
+Vcs-Git: https://git.openstack.org/openstack/deb-python-nose-parameterized -b debian/newton
 Homepage: https://github.com/wolever/nose-parameterized
 
 Package: python-nose-parameterized
